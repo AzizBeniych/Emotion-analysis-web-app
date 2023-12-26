@@ -1,0 +1,6 @@
+{
+  "require": {
+      "stripe/stripe-php": "*",
+    "aws/aws-sdk-php": "^3.283"
+  }
+}

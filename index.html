@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sentimeter</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <style>
+    .gradient-custom-3 {
+      /* fallback for old browsers */
+      background: linear-gradient(to right, rgba(255, 255, 153, 1), rgba(255, 204, 0, 1))!important;
+
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, rgba(255, 255, 153, 1), rgba(255, 204, 0, 1));
+
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background: linear-gradient(to right, rgba(255, 255, 153, 1), rgba(255, 204, 0, 1));
+    }
+
+    .gradient-custom-4 {
+      /* fallback for old browsers */
+      background: #84fab0;
+
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, rgba(255, 255, 153, 1), rgba(255, 204, 0, 1));
+
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+     background: linear-gradient(to right, rgba(255, 255, 153, 1), rgba(255, 204, 0, 1));
+    }
+    h3{
+  color: #343a40!important;
+}
+
+  </style>
+
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light gradient-custom-3">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand" href="index.html">
+        <div class="d-flex align-items-center">
+          <h3>Emotions</h3>
+        </div>
+      </a>
+      <!-- Toggler/collapsible Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Nav elements -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><u><b>Home</b></u></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Query.php">Query</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html">Contact</a>
+          </li>
+          <!-- User actions -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userActionsDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="Images/person-lines-fill.svg" height="25" alt="Person icon with lines" loading="lazy" />
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="userActionsDropdown">
+              <li><a class="dropdown-item" href="Register.html">Register</a></li>
+              <li><a class="dropdown-item" href="EditAccount.html">Edit Account</a></li>
+              <li><a class="dropdown-item" href="ViewHistory.html">View History</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="max-height: 90vh;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Images/CarouselSlideOne2.jpg" class="d-block w-100" alt="Group of people in an office"
+          style="max-height: 90vh;">
+        <div class="carousel-caption">
+          <h5>Foster a Better Learning/Teaching Environment</h5>
+          <p>Utilize Sentimeter to create an ideal environment for learning and teaching, enhancing engagement and
+            understanding</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="Images/CarouselSlideTwo.jpg" class="d-block w-100"
+          alt="Laptop with data analysis graphs on the screen" style="max-height: 90vh;">
+        <div class="carousel-caption">
+          <h5>Make Data-Driven Decisions</h5>
+          <p>Empower your decision-making process with valuable insights derived from data analysis</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="Images/CarouselSlideThree.jpg" class="d-block w-100" alt="..." style="max-height: 90vh;">
+        <div class="carousel-caption">
+          <h5>Utilize The Latest Technology</h5>
+          <p>Stay at the forefront of innovation by leveraging cutting-edge technologies for your work</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <br />
+  <br />
+
+  <!-- Services -->
+  <h3 class="text-center" style="color: lightseagreen;">Our Services</h3>
+  <br />
+
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="Images/DataVisualization.jpg" height="300" width="100%" alt="Data Visualization">
+        <br /><br />
+        <h6><b>Data Visualization</b></h6>
+      </div>
+
+      <div class="col-md-4">
+        <img src="Images/RealTime.jpg" height="300" width="100%" alt="Real-Time Data Analysis">
+        <br /><br />
+        <h6><b>Real-Time Data Analysis</b></h6>
+      </div>
+
+      <div class="col-md-4">
+        <img src="Images/EmotionDetection4.jpg" height="300" width="100%" alt="Accurate Emotion Detection">
+        <br /><br />
+        <h6><b>Accurate Emotion Detection</b></h6>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="text-center mt-5">
+    <a href="Query.php" class="btn large gradient-custom-4">Explore Further</a>
+  </div>
+
+  <br />
+  <br />
+
+
+  <!-- Footer -->
+  <footer class="gradient-custom-3" style="padding-top: 20px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p style="color: black;">&#169; 2024 Sentimeter. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-end">
+          <a href="tel://12345678" class="me-3" style="text-decoration: none;">
+            <img src="Images/telephone-inbound-fill.svg" height="25" alt="Phone icon" loading="lazy" />
+          </a>
+          <a href="mailto:Sentimeter.bh@gmail.com" class="me-3" style="text-decoration: none;">
+            <img src="Images/envelope-at-fill.svg" height="25" alt="Email icon" loading="lazy" />
+          </a>
+          <a href="#" class="me-3" style="text-decoration: none;">
+            <img src="Images/instagram.svg" height="25" alt="Instagram icon" loading="lazy" />
+          </a>
+          <a href="Contact.html" style="text-decoration: none;">
+            <img src="Images/geo-alt-fill.svg" height="25" alt="Location icon" loading="lazy" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
