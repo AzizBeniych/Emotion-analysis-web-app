@@ -21,7 +21,7 @@ This Emotion Analysis Web Application uses advanced facial recognition technolog
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/[your-github-username]/emotion-analysis-web-app.git
+   git clone https://github.com/AzizBeniych/Emotion-analysis-web-app.git
    cd emotion-analysis-web-app
    ```
 
@@ -54,7 +54,7 @@ This Emotion Analysis Web Application uses advanced facial recognition technolog
 
 3. **Clone the Repository**
    ```bash
-   git clone https://github.com/[your-github-username]/emotion-analysis-web-app.git
+   git clone https://github.com/AzizBeniych/Emotion-analysis-web-app.git
    ```
 
 4. **Install Python Dependencies**
@@ -80,7 +80,3 @@ Contributions are what make the open-source community an amazing place to learn,
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
----
-
-Replace `[your-github-username]` with your GitHub username and adjust instructions as per your project's specifics.
